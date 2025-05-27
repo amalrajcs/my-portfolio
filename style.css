@@ -1054,6 +1054,8 @@ footer {
 }
 }
 
+/* Contact */
+
 @media(max-width:768px){
   .contact-container{
     display: block;
