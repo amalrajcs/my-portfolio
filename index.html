@@ -39,7 +39,7 @@
         <h3>Web Developer</h3>
         <p>A passionate Web Developer who brings designs to life with clean and responsive code. I specialize in building user-friendly interfaces using HTML, CSS, and JavaScript. My goal is to create seamless web experiences that are both visually appealing and functional.</p>
         <div class="btn-items">
-            <a href="./Media/AMALRAJ A.docx.pdf" download>Download CV</a>
+            <a href="./Media/Amalraj_Resume.pdf" download>Download CV</a>
         </div>
         <div class="icons">
             <a href="https://www.instagram.com/ar_amal_raj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -66,9 +66,9 @@
     <div class="about-right">
       <h2>About Me</h2>
       <p>
-        I am a passionate Full Stack Python Developer with a strong foundation in HTML, CSS, JavaScript, and Python. I hold a B.Sc. in Computer Science and have completed specialized training to sharpen my skills in building dynamic, user-friendly web applications. I enjoy solving complex problems through clean, efficient code and continuously expanding my knowledge. With hands-on experience from internships and personal projects, I am eager to contribute to innovative teams and create impactful digital solutions.
+        I am a passionate Full Stack Web Developer with a strong foundation in HTML, CSS, JavaScript, and Python. I hold a B.Sc. in Computer Science and have completed specialized training to sharpen my skills in building dynamic, user-friendly web applications. I enjoy solving complex problems through clean, efficient code and continuously expanding my knowledge. With hands-on experience from internships and personal projects, I am eager to contribute to innovative teams and create impactful digital solutions.
       </p>
-      <a href="./Media/AMALRAJ A.docx.pdf" class="btn-download" download>Download CV</a>
+      <a href="./Media/Amalraj_Resume.pdf" class="btn-download" download>Download CV</a>
       <p class="signature">– Amal Raj</p>
     </div>
   </div>
@@ -148,7 +148,7 @@
 					<h4>2021 - 2024</h4>
 					<h3>Bachelor's Degree</h3>
 					<p><b>B.SC in Computer Science, </b>SRM Institute of Science & Technology,SRM
-University,Chennai, TamilNadu, 2024.</p>
+University Kattankulathur, Chennai, TamilNadu, 2024.</p>
 				</div>
 
 			</div>
@@ -212,7 +212,7 @@ University,Chennai, TamilNadu, 2024.</p>
     <div class="project-details">
       <h3>Inferno-club | College Club </h3>
       <p><strong>Tech Stack : </strong>HTML, CSS, JavaScript</p>
-      <p>A dynamic web app for streaming and sharing music. Includes user authentication, audio playback, artist pages, and playlist features.</p>
+      <p>Inferno Club is a stylish frontend web project built with HTML, CSS, and JavaScript. It features sections like Our Team, Gallery, Events, and Registration, offering an exclusive club-like experience with a modern, secret-society vibe.</p>
       <a href="#">View Project</a> | <a href="https://github.com/En4128/InfernoClub" target="_blank">GitHub</a>
     </div>
   </div>
@@ -232,8 +232,7 @@ University,Chennai, TamilNadu, 2024.</p>
 </section>
 
 <!-- Contact Section -->
-<section class="contact-section" id="contact" data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+<section class="contact-section" id="contact"  data-aos="fade-up">
   <div class="contact-container">
     <div class="contact-left">
       <h2>Contact</h2>
@@ -241,12 +240,14 @@ University,Chennai, TamilNadu, 2024.</p>
       <p>Have a project in mind or want to collaborate? Feel free to reach out and let's create something amazing together.</p>
     </div>
     <div class="contact-right">
-      <form>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Get in touch</button>
-      </form>
+      <form id="contactForm">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Get in touch</button>
+</form> <br>
+
+<p id="status"></p>
     </div>
   </div>
 </section>
@@ -295,5 +296,8 @@ University,Chennai, TamilNadu, 2024.</p>
     </script>
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/1019d6ee8b.js" crossorigin="anonymous"></script>
+
+    
 </body>
+
 </html>

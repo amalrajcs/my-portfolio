@@ -115,6 +115,7 @@
   font-style: italic;
 }
 
+/* Content Starts */
 
 :root{
     --color:#6244C5;
@@ -191,18 +192,16 @@ body{
   bottom: -3px;
   left: 50%;
   transform: translateX(-50%) scaleX(0);
-  transform-origin: left;
+  transform-origin: center;
   width: 50%;
   height: 2px;
-  background-color: var(--color);
+  background-color: #6244C5;
   transition: transform 0.3s ease-in-out;
 }
 
 .nav-items li a:hover::after {
   transform: translateX(-50%) scaleX(1);
 }
-
-
 
 /* Home */
 
@@ -219,10 +218,7 @@ body{
   background: url(./Media/Particles.png);
   background-repeat: no-repeat;
   background-size: cover;
-
-  
 }
-
 
 .content {
     max-width: 600px;
@@ -620,7 +616,6 @@ main.row{
 
 .box{
   border-radius: 12px;
-  
 }
 
 /* Projects */
@@ -1061,3 +1056,5 @@ footer {
     display: block;
   }
 }
+
+
